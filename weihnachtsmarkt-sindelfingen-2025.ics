@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Your Calendar App//EN
+BEGIN:VEVENT
+UID:weihnachtsmarkt-sindelfingen-2025@example.com
+DTSTAMP:20251204T185300Z
+DTSTART;TZID=Europe/Berlin:20251206T113000
+DTEND;TZID=Europe/Berlin:20251206T123000
+SUMMARY:Weihnachtsmarkt in Sindelfingen
+LOCATION:Marktplatz, 71063 Sindelfingen, Germany
+DESCRIPTION:Weihnachtsmarkt in Sindelfingen on Saturday, December 6th.\n\nPlease aim to arrive around 11:30 AM if possible.\n\nBefore each performance, the children will line up by the stairs next to the stage. We kindly ask all parents to keep this area clear so the students can line up safely and smoothly.
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Weihnachtsmarkt in Sindelfingen
+END:VALARM
+END:VEVENT
+END:VCALENDAR
