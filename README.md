@@ -2,6 +2,10 @@
 
 This solution converts the Power Query script to PowerShell that can run in Azure runners (GitHub Actions) and exports user metrics to Azure Blob Storage.
 
+## Architecture
+
+See [Architecture](docs/architecture.md) for the batch, Azure Functions, and Power BI data flows.
+
 ## Prerequisites
 
 ### Azure Resources Required
